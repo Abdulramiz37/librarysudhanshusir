@@ -113,7 +113,7 @@ const setBooks = () =>{
         const test= {
             title:"Not Found"
         }
-        
+        // books.push(test)
     }
     BuildUi(books)
 }
@@ -143,6 +143,10 @@ hide_modal.addEventListener('click', hidemodal);
 
 
 setBooks()
+
+
+
+
 
 
 
