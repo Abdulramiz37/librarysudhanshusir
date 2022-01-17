@@ -113,7 +113,7 @@ const setBooks = () =>{
         const test= {
             title:"Not Found"
         }
-        books.push(test)
+        
     }
     BuildUi(books)
 }
