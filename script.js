@@ -6,7 +6,7 @@ const add_book_btn=document.querySelector('.add-book-btn')
 const container =  document.querySelector('.container')
 let delete_keys = document.querySelectorAll('.cross-btn')
 const id_value =1 
-// let books=[];
+let books=[];
 console.log(book_title)
  console.log(add_book_btn)
 
