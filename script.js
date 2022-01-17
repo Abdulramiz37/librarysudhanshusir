@@ -107,8 +107,8 @@ const BuildUi =(books)=>  {
 // }
 
 const setBooks = () =>{
-    if(localStorage.getItem("books")){
-        books = JSON.parse(localStorage.getItem("books"))
+    if(localStorage.getItem("boo")){
+        books = JSON.parse(localStorage.getItem("boo"))
     }else{
         const test= {
             title:"Not Found"
@@ -143,6 +143,11 @@ hide_modal.addEventListener('click', hidemodal);
 
 
 setBooks()
+
+
+
+
+
 
 
 
